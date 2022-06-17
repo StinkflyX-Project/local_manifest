@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- GitLab -->
+ <remote name="gitlab"
+         fetch="https://gitlab.com/" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/vince" name="StinkflyX/android_device_xiaomi_vince" remote="github" revision="lineage-18.1" />
+ <project path="vendor/xiaomi/vince" name="StinkflyX/android_vendor_xiaomi_vince" remote="github" revision="lineage-18.1" />
+ <project path="kernel/xiaomi/vince" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="12" />
+ 
+</manifest>
