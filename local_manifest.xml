@@ -12,5 +12,13 @@
 
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang.git" remote="gitlab" revision="master" />
- 
+
+ <!-- Hals -->
+ <remove-project name="LineageOS/android_hardware_qcom_audio" />
+ <remove-project name="LineageOS/android_hardware_qcom_display" />
+ <remove-project name="LineageOS/android_hardware_qcom_media" /> 
+ <project path="hardware/qcom-caf/msm8996/audio" name="StinkflyX-Project/android_hardware_qcom_audio" remote="github" revision="rvc-caf-msm8996" /> 
+ <project path="hardware/qcom-caf/msm8996/display" name="StinkflyX-Project/android_hardware_qcom_display" remote="github" revision="rvc-caf-msm8996" />
+ <project path="hardware/qcom-caf/msm8996/media" name="StinkflyX-Project/android_hardware_qcom_media" remote="github" revision="rvc-caf-msm8996" />
+
 </manifest>
