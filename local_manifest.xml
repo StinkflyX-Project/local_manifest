@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- GitLab -->
+ <remote name="gitlab"
+         fetch="https://gitlab.com/" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/vince" name="StinkflyX/android_device_xiaomi_vince" remote="github" revision="lineage-19.1" />
+ <project path="vendor/xiaomi/vince" name="StinkflyX/android_vendor_xiaomi_vince" remote="github" revision="lineage-19.1" />
+ <project path="kernel/xiaomi/vince" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="12" />
+
+ <!-- Cosmic clang Toolchain -->
+ <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang.git" remote="gitlab" revision="master" />
+
+ <!-- Hals -->
+ <remove-project name="LineageOS/android_hardware_qcom_audio" />
+ <remove-project name="LineageOS/android_hardware_qcom_display" />
+ <remove-project name="LineageOS/android_hardware_qcom_media" /> 
+ <project path="hardware/qcom-caf/msm8996/audio" name="StinkflyX-Project/android_hardware_qcom_audio" remote="github" revision="sc-v2-caf-msm8996" /> 
+ <project path="hardware/qcom-caf/msm8996/display" name="StinkflyX-Project/android_hardware_qcom_display" remote="github" revision="sc-v2-caf-msm8996" />
+ <project path="hardware/qcom-caf/msm8996/media" name="StinkflyX-Project/android_hardware_qcom_media" remote="github" revision="sc-v2-caf-msm8996" />
+
+</manifest>
